@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-image: url('images/img1.jpg');
+}
+
+#puzzleContainer {
+  width: 600px;
+  height: 600px;
+  margin: 20px auto;
+  display: grid;
+  border: 2px solid #333;
+  background-color: white;
+}
+
+.piece {
+  background-size: 600px 600px;
+  cursor: grab;
+  border: 1px solid #999;
+}
+
+h1 {
+  background-color: white;
+  opacity: 0.8;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+select {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
